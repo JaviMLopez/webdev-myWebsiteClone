@@ -72,10 +72,23 @@ height: 30px;
 }
 
 #centercomp{
-    display: inline-block;
+    display: inline;
     padding-left: 5%;
 }
 
 #comps{
     width: 85vw;
+}
+
+container{
+position: relative;
+  text-align: center;
+  color: black;
+}
+
+#headerofPic1{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
 }
