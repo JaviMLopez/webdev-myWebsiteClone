@@ -162,7 +162,7 @@ position: relative;
     width: 68vw;
     padding-left: 4.5%;
     vertical-align: middle;
-    padding-top: 6%;
+    margin-top: 9%;
     padding-bottom: 2%;
 }
 
@@ -245,7 +245,7 @@ position: relative;
     width: 68.5vw;
     padding-left: 0%;
     vertical-align: middle;
-    padding-top: 6%;
+    padding-top: 9%;
     padding-bottom: 2%;
 }
 
@@ -279,4 +279,11 @@ position: relative;
     height: 400px;
     background: #f2f2f2;
     margin-top: 42px;
+    margin-left: 13.8%;
+}
+
+#footer_list{
+    display: inline-block; 
+    vertical-align: top;
+    margin-right: 4%;
 }
