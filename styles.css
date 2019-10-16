@@ -1,3 +1,5 @@
+/* Basics  */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +13,8 @@ body{
     color: #000;
     background-color: #fff;
 }
+
+/* Nav Bar */
 
 ul{
     list-style-type: none;
@@ -30,6 +34,7 @@ nav{
     block-size: 50px;
     width: 100%;
     display: inline-block;
+    margin-top: .5%;
 }
 
 #one{
@@ -84,22 +89,57 @@ height: 30px;
 
 #comps{
     width: 68vw;
-    padding-left: 9%;
+    padding-left: 14%;
     vertical-align: middle;
 }
 
-container{
-position: relative;
-  text-align: center;
-  color: black;
+#manycomps{
+    position: relative;
 }
 
-#headerofPic1{
+#bigPicture_heading1{
     position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
+    top: 200px;
+    left: 17%;
+    width: 100%;
+    font-size: 46px;
+    line-height: 56px;
 }
+
+#bigPicture_description1{
+    position: absolute;
+    top: 270px;
+    left: 17%;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#learn_more_box1{
+    position: absolute;
+    width: 6.5%;
+    height: 40px;
+    background-color: black;
+    top: 315px;
+    left: 17%;
+    color: white;
+    display: inline-block;
+    /* vertical-align: middle; */
+    text-align: center;
+}
+
+#boxed_words1{
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: 18%;
+    text-align: center;
+    vertical-align: center;
+    
+}
+
+
+
 
 /* explore1 */
 
@@ -156,26 +196,61 @@ position: relative;
 #flowerComp{
     display: inline;
     padding-left: 5%;
+    position: relative;
 }
 
 #flowers{
     width: 68vw;
     padding-left: 4.5%;
     vertical-align: middle;
-    margin-top: 9%;
+    margin-top: 6%;
     padding-bottom: 2%;
 }
 
+#bigPicture_heading2{
+    position: absolute;
+    color: white;
+    top: -660%;
+    bottom: 70%;
+    left: 9%;
+    right: 0%;
+    width: 30%;
+    font-size: 46px;
+    line-height: 50px;
+}
 
-/* .bigpicturesize{
-    height: 100%;
-    width: 68vw;
+#bigPicture_description2{
+    position: absolute;
+    color: white;
+    top: -335%;
+    left: 4.9%;
+    width: 30%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#learn_more_box2{
+    position: absolute;
+    width: 8%;
+    height: 40px;
+    background-color: white;
+    top: -22px;
+    left: 14.5%;
+    color: black;
     display: inline-block;
+    /* vertical-align: middle; */
+    text-align: center;
+}
+
+#boxed_words2{
     vertical-align: middle;
-    margin-left: 0%;
-    margin-top: 6%;
-    margin-left: 15.8%;
-} */
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    top: 18%;
+    
+}
 
 /* Explore 2 */
 
@@ -228,7 +303,7 @@ position: relative;
     font-weight: bold;
 }
 
-/* Big Picture 2 */
+/* Big Picture 3 */
 
 #bigpicture3{
     width: 92%;
@@ -239,6 +314,7 @@ position: relative;
 #microsoftbanner{
     display: inline;
     padding-left: 5%;
+    position: relative;
 }
 
 #banner{
@@ -247,9 +323,54 @@ position: relative;
     vertical-align: middle;
     padding-top: 9%;
     padding-bottom: 2%;
+
+    
 }
 
-/* follow microsoft */
+#bigPicture_heading3{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: -28%;
+    width: 100%;
+    font-size: 46px;
+    line-height: 56px;
+}
+
+#bigPicture_description3{
+    position: absolute;
+    color: white;
+    top: 350%;
+    left: -30.7%;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#learn_more_box3{
+    position: absolute;
+    width: 8.5%;
+    height: 40px;
+    background-color: white;
+    top: 106px;
+    left: 13%;
+    color: black;
+    display: inline-block;
+    /* vertical-align: middle; */
+    text-align: center;
+}
+
+#boxed_words3{
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    top: 18%;
+    
+}
+
+/* Follow Microsoft */
 
 #follow{
     height: 50px;
@@ -274,10 +395,16 @@ position: relative;
 
 /* Footer */
 
+#footermain{
+    width: 100vw;
+    height: 500px;
+    background-color: #f2f2f2; 
+}
+
 #footer{
     width: 100vw;
     height: 400px;
-    background: #f2f2f2;
+    background-color: #f2f2f2;
     margin-top: 42px;
     margin-left: 13.8%;
 }
@@ -286,4 +413,29 @@ position: relative;
     display: inline-block; 
     vertical-align: top;
     margin-right: 4%;
+    background-color: #f2f2f2;
+    margin-top: 1.5%;
+}
+
+#lastline{
+    margin-top: 2%;
+    display: block;
+}
+
+/* Last Line of Footer */
+
+#language{
+    vertical-align: middle;
+}
+
+#earth{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+#right_side{
+    display: inline;
+    vertical-align: middle;
+    margin-left: 22.5%;
 }
